@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  local-code-interpreter:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    ports:
+      - "7860:7860" # web_ui.pyにアクセスするためのポートをマッピング
+    tty: true
+    working_dir: /app/src
+    command: python web_ui.py
