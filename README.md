@@ -8,7 +8,7 @@ Local-Code-Interpreter
 <h3>
 A local implementation of OpenAI's ChatGPT Code Interpreter (Advanced Data Analysis).
 </h3>
----
+
 <h4>
 <br>(OpenAI の ChatGPT コード インタープリター (高度なデータ分析) のローカル実装。)
 </h4>
